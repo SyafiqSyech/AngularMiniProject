@@ -1,0 +1,16 @@
+<mat-dialog-actions class="dialog">
+  <div class="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Are you sure you want to delete ?</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" mat-dialog-close></button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" mat-dialog-close>Cancel</button>
+          <button type="button" class="btn btn-danger" (click)="confirmDelete()">Delete</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</mat-dialog-actions>

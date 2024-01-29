@@ -1,0 +1,49 @@
+<div class="p-3">
+  <a class="btn btn-secondary" routerLink="/" role="button">Back</a>
+</div>
+<div class="p-5" [formGroup]="updateForm">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Image</th>
+        <th scope="col">Title</th>
+        <th scope="col">Description</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th style="width: 60px;" scope="row">
+          {{ this.updateForm.get('id')?.value ? this.updateForm.get('id')?.value : 'no ID' }}
+        </th>
+        <td style="width: 100px;">
+          <img style="aspect-ratio: 1/1; width: 100px; padding: 5px; border: 1px lightgray solid; object-fit: cover;" src="{{ this.updateForm.get('image')?.value ? this.updateForm.get('image')?.value : noImage }}" alt="image">
+        </td>
+        <td style="width: 200px;">
+          {{ this.updateForm.get('title')?.value ? this.updateForm.get('title')?.value : 'none' }}
+        </td>
+        <td style="width: auto;">
+          {{ this.updateForm.get('desc')?.value ? this.updateForm.get('desc')?.value : 'none' }}
+        </td>
+        <td style="width: 200px;">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <form class="p-5" [formGroup]="updateForm" (ngSubmit)="update()">
+    <div class="mb-3">
+      <label for="titleInput" class="form-label">Title</label>
+      <input type="text" class="form-control" id="titleInput" formControlName='title'>
+    </div>
+    <div class="mb-3">
+      <label for="titleInput" class="form-label">Image URL</label>
+      <input type="text" class="form-control" id="titleInput" formControlName='image'>
+    </div>
+    <div class="mb-3">
+      <label for="titleInput" class="form-label">Description</label>
+      <input type="text" class="form-control" id="titleInput" formControlName='desc'>
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+  </form>
+</div>

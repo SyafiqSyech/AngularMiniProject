@@ -1,0 +1,94 @@
+{
+  "podcasts": [
+    {
+      "id": "1a2a",
+      "title": "The Tech Talk Show",
+      "image": "https://lh3.googleusercontent.com/proxy/N6SddQQjjxODd2oaJODhnBKP9pvCDxvKx2HIXNpNabs7OsbBRoHjKVKb9kcfxGX2nh8nmUntOZP_ESg1TJfQ4msMx_FeyUnEEcMLIHQ",
+      "desc": "Exploring the latest trends and innovations in the tech world. Join us for in-depth discussions with industry experts and enthusiasts."
+    },
+    {
+      "id": "3b4b",
+      "title": "True Crime Chronicles",
+      "image": "https://i.scdn.co/image/ab6765630000ba8ae622a979a913cd87bcef64e6",
+      "desc": "Dive into the world of true crime as we unravel mysterious cases, analyze evidence, and discuss criminal psychology with experts in the field."
+    },
+    {
+      "id": "1a2b",
+      "title": "The Joe Rogan Experience",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4b/The_Joe_Rogan_Experience_logo.jpg",
+      "desc": "Long-form conversations with comedians, celebrities, and experts. Hosted by Joe Rogan, covering a wide range of topics from science to comedy."
+    },
+    {
+      "id": "3c4d",
+      "title": "Serial",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDRhNmUyOTAtNzZkMS00ZWZmLTkwMGQtZTc1NjI1ODIwYjQwXkEyXkFqcGdeQXVyMTU3MzMwNQ@@._V1_.jpg",
+      "desc": "An investigative journalism podcast that tells a true crime story over multiple episodes. Season one explores the case of Adnan Syed and Hae Min Lee."
+    },
+    {
+      "id": "5e6f",
+      "title": "The Daily",
+      "image": "https://lh3.googleusercontent.com/proxy/UaM7CdI0OBFnyBFfj-2MRqppwqv2mXUfRu37FaoltXdM-IzJgFkfLfdY57sUN_5DG6K9I2Nrx7nr5NGF-ED7Da6rjpj5-IJeY1iSmAO1",
+      "desc": "A daily news podcast by The New York Times, providing in-depth analysis and reporting on current events, politics, and culture."
+    },
+    {
+      "id": "7g8h",
+      "title": "How I Built This",
+      "image": "https://i.scdn.co/image/ab6765630000ba8a7766e182b12fd85537d3b776",
+      "desc": "Hosted by Guy Raz, this podcast interviews entrepreneurs and innovators, delving into the stories behind successful businesses and startups."
+    },
+    {
+      "id": "9i0j",
+      "title": "TED Talks Daily",
+      "image": "https://pi.tedcdn.com/r/pb-assets.tedcdn.com/system/baubles/files/000/005/187/original/TED_Talks_Podcast_Thumbnail_Audio_600px.png?w=320",
+      "desc": "Daily episodes featuring TED Talks on a wide range of topics, from science and technology to personal development and global issues."
+    },
+    {
+      "id": "1k2l",
+      "title": "The Tim Ferriss Show",
+      "image": "https://i.scdn.co/image/07fa4012411c0244688d53c6b68aea10184cdf80",
+      "desc": "Tim Ferriss interviews world-class performers from various fields, discussing their routines, habits, and strategies for success."
+    },
+    {
+      "id": "3m4n",
+      "title": "Crime Junkie",
+      "image": "https://i.scdn.co/image/ab6765630000ba8abe2cc3efd92b817b54d9bcb2",
+      "desc": "A true crime podcast hosted by Ashley Flowers and Brit Prawat, covering intriguing and mysterious criminal cases from around the world."
+    },
+    {
+      "id": "7q8r",
+      "title": "Radiolab",
+      "image": "https://i.scdn.co/image/ab67656300005f1f44d70adc5a19fadd97cce181",
+      "desc": "A science and philosophy podcast that explores thought-provoking stories and ideas, hosted by Jad Abumrad and Robert Krulwich."
+    },
+    {
+      "id": "9s0t",
+      "title": "Freakonomics Radio",
+      "image": "https://i.scdn.co/image/ab6765630000ba8ad8cbc1b0e35fb151ae472695",
+      "desc": "Economics meets storytelling. Hosted by Stephen J. Dubner, this podcast explores the hidden side of everyday life and the economy."
+    },
+    {
+      "id": "1b2a",
+      "title": "The Daily Show with Trevor Noah",
+      "image": "https://i.scdn.co/image/ab6765630000ba8a9e3a9c40dce08b3e021fd87e",
+      "desc": "Trevor Noah and the Best F#@king News Team tackle the biggest stories in news, politics, and pop culture, bringing humor and insight to current events."
+    },
+    {
+      "id": "5f6e",
+      "title": "Conan O'Brien Needs A Friend",
+      "image": "https://i.scdn.co/image/ab6765630000ba8aa06e0e66b0c721e67015bf25",
+      "desc": "Join Conan O'Brien as he interviews celebrities, comedians, and interesting personalities, seeking to find genuine connections and friendship in the process."
+    },
+    {
+      "id": "9i0j",
+      "title": "Science Vs",
+      "image": "https://live-production.wcms.abc-cdn.net.au/dc349f0a371d22db61c7ba8327b97502?impolicy=wcms_crop_resize&cropH=700&cropW=700&xPos=0&yPos=0&width=862&height=862",
+      "desc": "Wendy Zukerman investigates fads, trends, and the latest ideas to see what's fact, what's not, and what's somewhere in between in the world of science and technology."
+    },
+    {
+      "title": "Lex Fridman Podcast",
+      "image": "https://i.scdn.co/image/ab6765630000ba8a563ebb538d297875b10114b7",
+      "desc": "Test Podcast",
+      "id": "-QDHF6W"
+    }
+  ]
+}

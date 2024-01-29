@@ -1,0 +1,41 @@
+<div class="p-5">
+  <div class="mb-3">
+    <input style="width: 400px; float: left;" class="form-control" type="text" placeholder="Type in a podcast title" [formControl]="searchControl" aria-label="default input example">
+    <button type="button" class="btn btn-primary ms-3" (click)="textSearch()">Search Title</button>
+  </div>
+  
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Image</th>
+        <th scope="col">Title</th>
+        <th scope="col">Description</th>
+        <th scope="col">Operations</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let podcast of allPodcasts">
+      <th style="width: 60px;" scope="row">{{ podcast.id }}</th>
+        <td style="width: 100px;">
+          <img style="aspect-ratio: 1/1; width: 100px; padding: 5px; border: 1px lightgray solid; object-fit: cover;" src="{{ podcast.image }}" alt="image">
+        </td>
+        <td style="width: 200px;">{{ podcast.title }}</td>
+        <td style="width: auto;">{{ podcast.desc }}</td>
+        <td style="width: 200px;">
+          <a class="btn btn-secondary" [routerLink]="['/edit',podcast.id]" role="button">Edit</a>
+          <a class="btn btn-danger ms-2" (click)="deleteItem(podcast.id)" role="button">Delete</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>  
+  <div style="display: flex; justify-content: space-between;">
+    <a style="height: min-content;" class="btn btn-primary" routerLink="/add" role="button">Add Podcast</a>
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item"><a style="cursor: pointer;" class="page-link" (click)="handlePageEvent(false)">Previous</a></li>
+        <li class="page-item"><a style="cursor: pointer;" class="page-link" (click)="handlePageEvent(true)">Next</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
